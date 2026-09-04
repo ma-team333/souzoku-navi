@@ -1,4 +1,4 @@
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://souzoku-navi.vercel.app";
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://souzoku-navi-theta.vercel.app";
 export const SITE_NAME = "相続手続きナビ";
 export const ENTITY_ID = "souzoku";
 /**
