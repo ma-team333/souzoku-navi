@@ -6,6 +6,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     "",
     "/first-steps",
+    "/sale-steps",
+    "/sale-tax",
     "/tax",
     "/division",
     "/renunciation",

@@ -52,6 +52,23 @@ export default function HomePage() {
             <p>放棄の要件・手順と、負担を引き受けないための整理をします。</p>
           </Link>
         </div>
+        <div className="page-header" style={{ marginTop: 32 }}>
+          <p className="eyebrow">SELLING DECISIONS</p>
+          <h2>売却を考えるとき</h2>
+          <p className="lede">手続きが整ったら、売り方と税を分けて確認します。相場と査定は、実務を扱う①R-SICへ送ります。</p>
+        </div>
+        <div className="section-grid" style={{ marginTop: 16 }}>
+          <Link className="info-card" href="/sale-steps">
+            <span className="number">05</span>
+            <h3>売るまでの流れ</h3>
+            <p>査定から決済まで、判断が分かれるポイントを整理します。</p>
+          </Link>
+          <Link className="info-card" href="/sale-tax">
+            <span className="number">06</span>
+            <h3>税・取得費の確認</h3>
+            <p>相続の税と譲渡の税は目的が違います。取得費の調べ方を整理します。</p>
+          </Link>
+        </div>
         <div className="section-grid" style={{ marginTop: 16 }}>
           <Link className="info-card" href="/verification">
             <span className="number">VERIFICATION</span>
